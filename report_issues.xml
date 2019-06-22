@@ -1,0 +1,49 @@
+<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>panel_report_issues</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Helpdesk</Icon>
+    <Order>2</Order>
+    <Color>#FF7033</Color>
+    <Name>Report Issues</Name>
+    <Page>
+      <Name>Report issues</Name>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>widget_2</WidgetId>
+          <Name>Call support:</Name>
+          <Type>Text</Type>
+          <Options>size=2;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>btnCallSupport</WidgetId>
+          <Type>Button</Type>
+          <Options>size=1;icon=phone</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>widget_4</WidgetId>
+          <Name>Post a message:</Name>
+          <Type>Text</Type>
+          <Options>size=2;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>btnPostMessage</WidgetId>
+          <Type>Button</Type>
+          <Options>size=1;icon=webex_teams</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>widget_5</WidgetId>
+          <Name>Please let us know about the issues you're having with the meeting room. You can call us directly or send us a message. Thank you!</Name>
+          <Type>Text</Type>
+          <Options>size=4;fontSize=small;align=center</Options>
+        </Widget>
+      </Row>
+      <Options>hideRowNames=1</Options>
+    </Page>
+  </Panel>
+</Extensions>
